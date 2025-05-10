@@ -1,0 +1,112 @@
+/* Google Font (Poppins) - include in HTML <head> if not already */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body Styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #d0c4f7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    background: linear-gradient(to right, #6a1b9a, #9c27b0);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+header h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+/* Assignment container */
+
+.assignment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+/* Assignment box */
+
+.box {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border: 2px solid #6a1b9a;
+    color: #6a1b9a;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 25px 35px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    min-width: 220px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: #6a1b9a;
+    color: #fff;
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9em;
+    margin-top: auto;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+    .box {
+        padding: 18px 25px;
+        font-size: 1em;
+        min-width: 160px;
+    }
+}
