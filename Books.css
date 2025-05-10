@@ -1,0 +1,49 @@
+books {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 10px;
+}
+
+heading {
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+book {
+    display: block;
+    border: 1px solid #aaa;
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 15px;
+    width: 60%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f618d;
+    margin-bottom: 5px;
+}
+
+author,
+publisher,
+edition,
+price {
+    display: block;
+    font-size: 16px;
+    margin: 2px 0;
+    color: #333;
+}
+
+price {
+    color: #c0392b;
+    font-weight: bold;
+}

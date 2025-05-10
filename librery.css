@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 40px;
+}
+
+library {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+book {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #0077cc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+book:hover {
+    background-color: #eef6fc;
+    border-left-color: #005fa3;
+}
+
+title {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #0077cc;
+    margin-bottom: 5px;
+}
+
+author,
+published_year,
+available_copies {
+    display: block;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-size: 1em;
+}
+
+id {
+    display: none;
+}
